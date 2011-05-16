@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serviceType name="StyleFileServiceType" factoryClass="com.progress.codeshare.esbservice.styleFile.StyleFileService"
+        xmlns="http://www.sonicsw.com/sonicxq">
+    <validParams>
+        <runtime>
+            <stringParam name="xPathExpession"/>
+            <stringParam name="layoutPart"/>
+            <stringParam name="namespaces"/>
+            <stringParam name="styleFileLayout"/>
+            <stringParam name="messagePart"/>
+        </runtime>
+    </validParams>
+</serviceType>
